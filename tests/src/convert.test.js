@@ -7,3 +7,7 @@ test('return 1.00', () => {
 test('return 10.00', () => {
   expect(convert('dez reais')).toBe(10.00);
 });
+
+test('must return 22.00', () => {
+  expect(convert('vinte e dois reais')).toBe(22.00);
+});
